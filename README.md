@@ -1,8 +1,25 @@
 # Awesome Android App Functions Apps
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Links and Markdown Check](https://github.com/edoardomargarini/Awesome-Android-AppFunctions-Apps/actions/workflows/links-check.yml/badge.svg)](https://github.com/edoardomargarini/Awesome-Android-AppFunctions-Apps/actions/workflows/links-check.yml)
+
 A community-driven list of Android apps that support App Functions.
 
 Goal: become the reference repository for mapping the emerging App Functions ecosystem and the evolution of agentic AI on smartphones.
+
+## Project Standards
+
+- Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Code of conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Governance model: [GOVERNANCE.md](GOVERNANCE.md)
+- Security policy: [SECURITY.md](SECURITY.md)
+- Change history: [CHANGELOG.md](CHANGELOG.md)
+
+## Contribute Quickly
+
+- Suggest an app: open an issue using the "Add app" template.
+- Fix an existing entry: open an issue using the "Correction / update" template.
+- Submit directly: open a pull request using the PR template.
 
 ## What Are App Functions
 
@@ -96,6 +113,13 @@ We believe agentic AI on smartphones will grow around reliable interfaces betwee
 App Functions can become one of those key layers.
 
 This repository aims to be the open reference point for tracking that transition while it is being built.
+
+## Roadmap
+
+- Grow verified app coverage by category.
+- Track feature evolution across Android releases.
+- Keep evidence links alive with CI checks.
+- Maintain high signal quality with fast, structured review.
 
 ## Official Sources
 

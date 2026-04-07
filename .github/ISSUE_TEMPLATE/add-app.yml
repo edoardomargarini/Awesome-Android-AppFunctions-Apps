@@ -1,0 +1,68 @@
+name: Add app
+
+description: Suggest an app to be added to the list
+
+title: "Add app: <App Name>"
+
+labels:
+  - add-app
+
+body:
+  - type: input
+    id: app_name
+    attributes:
+      label: App name
+      placeholder: Example App
+    validations:
+      required: true
+
+  - type: input
+    id: developer
+    attributes:
+      label: Developer
+      placeholder: Example Dev
+    validations:
+      required: true
+
+  - type: input
+    id: play_store
+    attributes:
+      label: Play Store URL
+      placeholder: https://play.google.com/store/apps/details?id=...
+    validations:
+      required: true
+
+  - type: textarea
+    id: exposed_functions
+    attributes:
+      label: Exposed functions (if known)
+      placeholder: createNote, searchNotes
+    validations:
+      required: false
+
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence URL
+      placeholder: https://...
+      description: Official docs, release notes, demo, or reproducible technical analysis.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this is credible
+      placeholder: One short explanation.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and PRs.
+          required: true
+        - label: I provided at least one verifiable source.
+          required: true

@@ -1,0 +1,39 @@
+name: Correction / update
+
+description: Fix or update an existing entry
+
+title: "Update: <App Name>"
+
+labels:
+  - update
+
+body:
+  - type: input
+    id: app_name
+    attributes:
+      label: App name
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_to_fix
+    attributes:
+      label: What needs to be fixed
+      placeholder: Broken link, changed function support, wrong developer name, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+    validations:
+      required: false

@@ -1,0 +1,25 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^mailto:"
+    }
+  ],
+  "replacementPatterns": [],
+  "httpHeaders": [
+    {
+      "urls": [
+        "https://developer.android.com",
+        "https://android-developers.googleblog.com",
+        "https://source.android.com",
+        "https://blog.google"
+      ],
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    }
+  ],
+  "retryOn429": true,
+  "retryCount": 2,
+  "fallbackRetryDelay": "20s",
+  "aliveStatusCodes": [200, 206, 301, 302, 307, 308, 403, 429]
+}
