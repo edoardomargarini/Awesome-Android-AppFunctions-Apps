@@ -61,7 +61,7 @@ Each entry must include:
 
 - A real, identifiable app.
 - Plausible evidence of App Functions support.
-- A verifiable source (see evidence levels below).
+- A verifiable source.
 - A short and clear description.
 
 Rejected entries:
@@ -70,22 +70,13 @@ Rejected entries:
 - Duplicates.
 - Non-verifiable claims.
 
-## Evidence Levels
-
-We use trust levels for transparency:
-
-- `A - Official`: official documentation, official release notes, official vendor communication.
-- `B - Strong`: credible technical demo, talk, or authoritative technical post with implementation details.
-- `C - Community`: reverse engineering, APK analysis, reproducible community testing.
-- `D - Rumor`: not included in the main list (can be discussed in issues).
-
 ## Entry Format
 
 Use this format for each app:
 
-| App | Developer | Play Store | Exposed Functions (if known) | Evidence | Level |
-| --- | --- | --- | --- | --- | --- |
-| Example App | Example Dev | https://play.google.com/... | createNote, searchNotes | https://example.com/proof | A |
+| App | Developer | Play Store | Exposed Functions (if known) | Evidence |
+| --- | --- | --- | --- | --- |
+| Example App | Example Dev | https://play.google.com/... | createNote, searchNotes | https://example.com/proof |
 
 ## App List
 
