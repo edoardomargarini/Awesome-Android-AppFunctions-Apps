@@ -93,7 +93,7 @@ Use this format for each app:
 
 | App | Developer | Play Store | Exposed Functions (if known) | Evidence |
 | --- | --- | --- | --- | --- |
-| Example App | Example Dev | https://play.google.com/... | createNote, searchNotes | https://example.com/proof |
+| Example App | Example Dev | https://play.google.com/... | createNote, searchNotes | https://developer.android.com/reference/android/app/appfunctions/package-summary |
 
 ## App List
 
